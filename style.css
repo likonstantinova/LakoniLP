@@ -1,0 +1,675 @@
+header {
+  width: 1440px;
+  height: 1024px;
+  background-image: url(image2.png);
+  margin: auto;
+}
+
+nav {
+  padding-top: 50px;
+}
+
+.navbar {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+}
+
+.navbar li {
+  display: inline;
+  color: white;
+  padding-right: 80px;
+}
+
+.name {
+  padding-right: 600px;
+  font-size: 25px;
+}
+
+.login,
+.search {
+  background-color: #2a97df;
+  border: none;
+  padding: 10px 20px;
+}
+
+.login {
+  font: inherit;
+  color: inherit;
+}
+
+.descrip,
+.descrip2,
+.start {
+  margin-left: 110px;
+  color: white;
+  font-family: "inter", sans-serif;
+}
+
+.descrip {
+  width: 791px;
+  height: 156px;
+  margin-top: 200px;
+  font-size: 65px;
+  font-weight: 1000;
+}
+
+.descrip2,
+.start {
+  margin-top: 30px;
+}
+
+.descrip2 {
+  width: 537px;
+  height: 21px;
+}
+
+.start {
+  background: rgba(218, 218, 218, 0.3);
+  border: none;
+  padding: 30px 50px;
+  font-size: 20px;
+}
+
+.data {
+  width: 960px;
+  height: 140px;
+  background-color: white;
+  margin-left: 480px;
+  margin-top: 274px;
+}
+
+.location,
+.date,
+.guest {
+  display: inline-block;
+  width: 25%;
+  height: 100%;
+  margin: 0;
+}
+
+.line {
+  border-left: 1px solid;
+  height: 50px;
+  color: #b2bcc2;
+  display: inline-block;
+  margin-top: 50px;
+}
+
+.formname {
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  color: #b2bcc2;
+  padding-left: 50px;
+}
+
+input {
+  margin-left: 50px;
+  border-style: none;
+  width: 170px;
+}
+
+.dest,
+.dat,
+.person {
+  background-repeat: no-repeat;
+  background-position: right;
+  font-family: "inter", sans-serif;
+  color: #60707b;
+  font-weight: 800;
+  font-size: 16px;
+}
+
+.dest {
+  background-image: url(Vector.png);
+}
+
+.dat {
+  background-image: url(calendar.png);
+}
+
+.person {
+  background-image: url(user.png);
+}
+
+.buttonsearch {
+  display: inline-block;
+  position: relative;
+}
+
+.search {
+  display: inline-block;
+  color: white;
+  font-family: "inter", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  position: absolute;
+  left: 50px;
+  bottom: 5px;
+}
+
+.popular {
+  width: 1440px;
+  height: 1024px;
+  /*border-style: solid;*/
+  margin: auto;
+}
+
+.thepopular {
+  width: 1187px;
+  height: 768px;
+  /*border-style: solid;*/
+  margin: 128px;
+  position: relative;
+}
+
+.head1,
+.head2,
+.head3 {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  color: #2a97df;
+}
+
+.pdest,
+.agency {
+  /*border-style: solid;*/
+  font-family: "Amiri", serif;
+  line-height: 55px;
+  color: #284152;
+  display: inline-block;
+}
+
+.pdest {
+  width: 463px;
+  height: 124px;
+  font-size: 48px;
+}
+
+.ofour,
+.adjust,
+.specoffer {
+  display: inline-block;
+  /*border-style: solid;*/
+  font-family: "inter", sans-serif;
+  color: #60707b;
+  font-weight: 700;
+  line-height: 35px;
+}
+
+.ofour {
+  width: 652px;
+  height: 96px;
+  margin-left: 58px;
+  font-size: 16px;
+}
+
+.pages {
+  width: 196px;
+  height: 48px;
+  /*border-style: solid;*/
+  position: absolute;
+  right: 0;
+}
+
+.back,
+.forward {
+  border: none;
+  color: white;
+  padding: 1px 15px;
+  font-size: 40px;
+  display: inline-block;
+}
+
+.back {
+  background-color: #e1e1e1;
+}
+
+.forward {
+  background-color: #2a97df;
+}
+.arrows {
+  display: inline-block;
+  /*border-style: solid;*/
+  width: 48px;
+  height: 100%;
+  margin: 0 15px 10px 10px;
+  box-sizing: border-box;
+}
+
+.travelphoto {
+  width: 376px;
+  height: 481px;
+  /*border-style: solid;
+  display: inline-block;*/
+  float: left;
+  margin-top: 103px;
+  margin-left: 12px;
+  /*vertical-align: center;*/
+}
+
+.maldives,
+.maldives2,
+.maldives3 {
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 170% 170%;
+}
+
+.maldives {
+  background-image: url(mald.png);
+  opacity: 0.8;
+}
+
+.maldesc {
+  width: 312px;
+  height: 200px;
+  /*border-style: solid;*/
+  margin: 260px auto 0;
+  padding-top: 10px;
+}
+
+.malh,
+.fromclub {
+  color: white;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+}
+
+.malh {
+  font-size: 24px;
+}
+
+.fromclub {
+  font-size: 16px;
+}
+
+.details {
+  /*border-style: solid;*/
+  border-color: white;
+  padding: 10px 110px;
+  background: none;
+  color: white;
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+}
+
+.maldives2 {
+  background-image: url(mald2.png);
+}
+
+.maldives3 {
+  background-image: url(mald3.png);
+}
+
+.aboutus {
+  width: 1440px;
+  height: 1104px;
+  /*border-style: solid;*/
+  margin: auto;
+}
+
+.abpic,
+.about {
+  width: 549px;
+  height: 754px;
+  /*border-style: solid;*/
+  display: inline-block;
+  vertical-align: bottom;
+}
+
+.abpic {
+  margin-top: 175px;
+  margin-left: 170px;
+  background-image: url(angle.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 150% 150%;
+}
+
+.agency {
+  width: 545px;
+  height: 186px;
+  font-size: 49px;
+}
+
+.adjust {
+  width: 525px;
+  height: 96px;
+  /*border-style: solid;*/
+  font-size: 16px;
+  padding-right: 20px;
+}
+
+.butdet {
+  width: 208px;
+  height: 74px;
+  /*border-style: solid;*/
+  margin-top: 20px;
+}
+
+.buttondet {
+  background-color: #2a97df;
+  border: none;
+  color: white;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  padding: 25px 50px;
+}
+
+.number16,
+.number120,
+.number50 {
+  width: 112px;
+  height: 100px;
+  /*border-style: solid;*/
+  display: inline-block;
+  margin-top: 100px;
+}
+
+.num16,
+.num120,
+.num50,
+.num2400 {
+  font-family: "Barlow", sans-serif;
+  color: #284152;
+  font-size: 36px;
+  margin-bottom: 0;
+}
+
+.exp,
+.collab,
+.subscrip {
+  font-family: "inter", sans-serif;
+  font-size: 16px;
+  color: #60707b;
+  font-weight: 700;
+  margin-top: 0;
+}
+
+.whychoose {
+  /*border-style: solid;*/
+  width: 1440px;
+  height: 640px;
+  background-color: #f6fbfd;
+  margin: auto;
+}
+
+.serv {
+  color: #284152;
+  font-family: "Amiri", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  padding-top: 57px;
+  padding-left: 158px;
+}
+
+.pro {
+  /*border-style: solid;*/
+  width: 100px;
+  height: 100px;
+  display: inline-block;
+}
+
+.discountlogo {
+  margin-left: 158px;
+  background-color: white;
+  border-radius: 55px;
+  background-image: url(percent.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px 35px;
+}
+
+.guidelogo,
+.hourslogo,
+.managementlogo {
+  margin-left: 200px;
+  background-color: white;
+  border-radius: 55px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 35px 35px;
+}
+
+.guidelogo {
+  background-image: url(tourguide.png);
+}
+
+.hourslogo {
+  background-image: url(headphones.png);
+}
+.managementlogo {
+  margin-right: 100px;
+  background-image: url(team.png);
+}
+
+.discount,
+.guide,
+.hours,
+.management {
+  width: 220px;
+  height: 150px;
+  /*border-style: solid;*/
+  display: inline-block;
+}
+
+.discount {
+  margin-left: 158px;
+}
+
+.guide,
+.hours,
+.management {
+  margin-left: 66px;
+}
+
+h3 {
+  font-family: "inter", sans-serif;
+  font-weight: 600;
+  color: #284152;
+}
+
+.prosdescrip {
+  font-family: "inter", sans-serif;
+  color: #60707b;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.specialoffer {
+  width: 1440px;
+  height: 1024px;
+  margin: auto;
+  /*border-style: solid;*/
+}
+
+.offer,
+.offerimg {
+  width: 600px;
+  height: 754px;
+  /*border-style: solid;*/
+  margin-top: auto;
+  display: inline-block;
+}
+
+.offer {
+  margin-left: 120px;
+  margin-top: 120px;
+  vertical-align: top;
+  /*padding-top: 50px;*/
+}
+
+.head2,
+.head3 {
+  display: inline-block;
+}
+
+.head3 {
+  width: 80px;
+  margin-left: 320px;
+}
+.specoffer {
+  width: 517px;
+  height: 128px;
+}
+
+.price {
+  width: 200px;
+  height: 50px;
+  /*border-style: solid;*/
+  margin-top: 30px;
+  padding: 0;
+  display: inline-block;
+}
+
+.num2400 {
+  display: inline-block;
+  font-weight: 700;
+}
+
+.permonth {
+  display: inline-block;
+  font-family: "Barlow", sans-serif;
+  color: #284152;
+  font-weight: 400;
+}
+
+.book {
+  display: inline-block;
+}
+
+.buttonbook {
+  background-color: #2a97df;
+  color: white;
+  font-family: "inter", sans-serif;
+  font-size: 20px;
+  padding: 20px 50px;
+  border: none;
+  margin-left: 120px;
+}
+
+.offerimg {
+  background-image: url(offer.png);
+  background-repeat: no-repeat;
+  background-position: 50% 29%;
+  vertical-align: bottom;
+  position: relative;
+}
+
+.more {
+  background-color: white;
+  width: 192px;
+  height: 100px;
+  position: absolute;
+  bottom: 0;
+}
+
+.back1,
+.forward1 {
+  border: solid 3px;
+  width: 32px;
+  height: 32px;
+  display: inline-block;
+  margin-top: 30px;
+  margin-left: 40px;
+  border-radius: 30px;
+  text-align: center;
+  font-family: "inter", sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+}
+
+.back1 {
+  color: #c4c4c4;
+}
+
+.forward1,
+.link1 {
+  color: #284152;
+}
+
+footer {
+  width: 1440px;
+  height: 427px;
+  /*border-style: solid;*/
+  margin: auto;
+  background-color: #082335;
+}
+
+.logo {
+  width: 292px;
+  height: 170px;
+  /*border-style: solid;*/
+  display: inline-block;
+  margin-left: 86px;
+  margin-top: 128px;
+  font-family: "inter", sans-serif;
+}
+
+.lak {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  line-height: 0;
+}
+
+.lakdes {
+  font-size: 14px;
+  color: #e5e5e5;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.service,
+.resource,
+.company,
+.contact {
+  width: 135px;
+  height: 170px;
+  /*border-style: solid;*/
+  display: inline-block;
+  color: white;
+  vertical-align: bottom;
+  font-family: "inter", sans-serif;
+  padding-top: 0;
+}
+
+.service {
+  margin-left: 132px;
+}
+
+.resource,
+.company,
+.contact {
+  margin-left: 100px;
+}
+
+.list {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  line-height: 2;
+  color: #e5e5e5;
+}
+.namelist {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+}
+
+.link1 {
+  text-decoration: none;
+}
